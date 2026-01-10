@@ -19,7 +19,7 @@ def test_calculate_stock_profit():
    assert result2["is_profitable"] is False
    print("✅ Losing stock test passed")
    os.system("sleep 0.2")
-
+ 
    # Test a break-even stock
    result3 = calculate_stock_profit(30, 30, 10)
    assert result3["investment"] == 300

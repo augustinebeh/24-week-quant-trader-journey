@@ -25,7 +25,7 @@ for symbol, price, shares in zip(stocks_list, stocks_price, shares_owned):
    print(f"Shares owned: {shares}")
    print(f"Total Value: ${value:.2f}\n")
 
-
+ 
 # 5. Calculate and print your total portfolio value (sum of all stock values)
 portfolio_value = sum(total_value)
 print(f"Total Portfolio Value: ${portfolio_value:.2f}")

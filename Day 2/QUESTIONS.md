@@ -67,7 +67,7 @@ while count < 10:
 <details>
 <summary>Click to see answer</summary>
 
-**A:** 
+**A:**
 - `stock["price"]` raises a `KeyError` if the key doesn't exist
 - `stock.get("price")` returns `None` if the key doesn't exist
 - `stock.get("price", 0)` returns `0` (or any default) if the key doesn't exist
@@ -383,7 +383,7 @@ for i in range(len(stocks)):
         print(f"{stocks[i]} - {stocks[j]}")
 ```
 
-**Explanation:** 
+**Explanation:**
 - Outer loop: index `i` goes 0, 1, 2
 - Inner loop: index `j` starts at `i + 1` to avoid duplicates
 - This ensures we only get unique pairs
@@ -495,11 +495,11 @@ for stock in portfolio:
     current_value = stock["price"] * stock["shares"]
     target_shares = target_value_per_stock / stock["price"]
     shares_diff = target_shares - stock["shares"]
-    
+
     print(f"{stock['symbol']}:")
     print(f"  Current: {stock['shares']} shares (${current_value:.2f})")
     print(f"  Target: {target_shares:.0f} shares (${target_value_per_stock:.2f})")
-    
+
     if shares_diff > 0:
         print(f"  Action: BUY {shares_diff:.0f} shares")
     elif shares_diff < 0:
@@ -544,7 +544,7 @@ for stock in portfolio:
 - **12-14 correct:** Good! Minor review recommended.
 - **8-11 correct:** Review the concepts and try challenges again.
 - **0-7 correct:** Take time to practice more with loops and dictionaries.
-
+ 
 ---
 
 ## Next Steps

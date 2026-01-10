@@ -16,7 +16,7 @@ print("profit:",stock["profit"],"\n")
 
 # 4. Update the current_price to a new value
 stock["current_price"] = 494.44
-
+ 
 # 5. Print the updated dictionary
 for key, value in stock.items():
    stock["profit"] = round((stock["current_price"] - stock["buying_price"]) * stock["shares"], 2)

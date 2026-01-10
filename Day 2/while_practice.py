@@ -17,3 +17,4 @@ while (target_price > price):
 
 print(f"Day {i}: ${price}")
 print(f"It took {i} days to reach or exceed the ${target_price} target.")
+ 

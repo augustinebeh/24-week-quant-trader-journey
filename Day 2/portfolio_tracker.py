@@ -69,7 +69,7 @@ for stock in portfolio:
          print(f"{key}: {value:.2f}%")
       else: print(f"{key}: {value}")
    print("\n")
-
+ 
 
 # **3. Portfolio Summary:**
 # - Total amount invested across all stocks

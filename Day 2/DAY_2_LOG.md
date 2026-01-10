@@ -17,7 +17,7 @@
    - Looping through single lists
    - Looping through multiple lists with `zip()`
    - Using `range()` for indexed loops
-   
+
 3. **While Loops**
    - While loop syntax and conditions
    - Counter incrementation
@@ -163,7 +163,7 @@ Commented out original repetitive code and replaced with function calls - shows 
    for key, value in stock.items():
       if key == "investment":
          portfolio_invested += value
-   
+
    # Better (direct access):
    portfolio_invested += stock["investment"]
    ```

@@ -18,7 +18,7 @@ print(f"Total number of stocks: {total_stocks}")
 
 # 6. Adding a new stock to the portfolio
 stocks_list.append("APLD")
-
+ 
 # 7. Printing the last stock in my portfolio
 print(f"The last stock in my portfolio is: {stocks_list[-1]}")
 
